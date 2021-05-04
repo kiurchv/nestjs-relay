@@ -25,6 +25,7 @@
   },
   "scripts": {
     "lint": "eslint \"{src,test}/**/*.ts\" --fix",
+    "prepare": "npm run build",
     "prebuild": "rimraf dist",
     "build": "rollup -c",
     "build:docs": "typedoc --options .typedoc.js --module commonjs",
