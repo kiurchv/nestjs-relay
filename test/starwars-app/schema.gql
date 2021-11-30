@@ -65,17 +65,6 @@ type IntroduceShipPayload {
 }
 
 type Query {
-  """Fetches an object given its ID"""
-  node(
-    """The ID of an object"""
-    id: ID!
-  ): Node
-
-  """Fetches objects given their IDs"""
-  nodes(
-    """The IDs of objects"""
-    ids: [ID!]!
-  ): [Node]!
   rebels: Faction
   empire: Faction
   factions(
@@ -91,6 +80,18 @@ type Query {
     """Paginate last"""
     last: Int
   ): FactionConnection
+
+  """Fetches an object given its ID"""
+  node(
+    """The ID of an object"""
+    id: ID!
+  ): Node
+
+  """Fetches objects given their IDs"""
+  nodes(
+    """The IDs of objects"""
+    ids: [ID!]!
+  ): [Node]!
 }
 
 type Mutation {

@@ -37,9 +37,9 @@
     "snyk-protect": "snyk protect"
   },
   "dependencies": {
-    "@nestjs/common": "^7.6.5",
-    "@nestjs/core": "^7.2.0",
-    "@nestjs/graphql": "^7.7.0",
+    "@nestjs/common": "^8.2.3",
+    "@nestjs/core": "^8.2.3",
+    "@nestjs/graphql": "^9.1.2",
     "graphql": "^15.4.0",
     "graphql-relay": "^0.6.0",
     "graphql-tools": "^6.2.4",
@@ -48,8 +48,8 @@
   "devDependencies": {
     "@commitlint/cli": "11.0.0",
     "@commitlint/config-conventional": "11.0.0",
-    "@nestjs/platform-express": "7.6.11",
-    "@nestjs/testing": "7.6.11",
+    "@nestjs/platform-express": "8.2.3",
+    "@nestjs/testing": "8.2.3",
     "@semantic-release/changelog": "5.0.1",
     "@semantic-release/git": "9.0.0",
     "@types/graphql-relay": "0.6.0",
@@ -58,7 +58,7 @@
     "@types/supertest": "2.0.10",
     "@typescript-eslint/eslint-plugin": "4.3.0",
     "@typescript-eslint/parser": "4.3.0",
-    "apollo-server-express": "2.19.2",
+    "apollo-server-express": "3.5.0",
     "class-validator": "0.13.1",
     "commitizen": "4.2.3",
     "cz-conventional-changelog": "3.3.0",
